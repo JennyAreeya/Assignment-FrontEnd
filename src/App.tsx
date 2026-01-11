@@ -4,7 +4,6 @@ import { AllocationPanel } from "./features/allocation/components/AllocationPane
 import { useAllocationStore } from "./features/allocation/allocationStore";
 import { mockCredits, mockInventory, mockOrders, mockPriceRules } from "./data/mockData";
 import { FiltersBar } from "./features/allocation/components/FiltersBar";
-import { SummaryBar } from "./features/allocation/components/SummaryBar";
 
 export default function App() {
   const runAuto = useAllocationStore((s) => s.runAuto);
@@ -35,7 +34,6 @@ export default function App() {
           <div>
             <div className="text-xl font-bold text-orange-600">Salmon Allocation</div>
             <FiltersBar />
-            {/* <SummaryBar /> */}
           </div>
 
           <div className="flex gap-2">

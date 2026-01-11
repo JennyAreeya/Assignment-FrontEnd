@@ -119,7 +119,7 @@ export function OrdersTable() {
           </div>
 
           {/* ✅ Body (virtualized) */}
-          <div ref={parentRef} className="h-[520px] overflow-y-auto overflow-x-hidden">
+          <div ref={parentRef} className="h-[calc(100vh-190px)] overflow-y-auto overflow-x-hidden">
             <div
               style={{
                 height: rowVirtualizer.getTotalSize(),

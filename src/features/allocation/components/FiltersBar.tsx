@@ -1,4 +1,3 @@
-import React from "react";
 import { useAllocationStore } from "../allocationStore";
 
 export function FiltersBar() {
