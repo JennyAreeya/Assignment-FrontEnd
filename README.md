@@ -1,6 +1,9 @@
 # Assignments-FrontEnd
 Assignments Front End Stack : React/Vite/tailwindcss
 
+## Demo
+[![Deploy with Vercel](https://vercel.com/button)](https://assignment-salmon-allocation.vercel.app)
+
 # Install Node.js v20.19.6
 nvm install 20.19.6
 
